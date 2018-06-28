@@ -1,5 +1,7 @@
-import slick.lifted.{ProvenShape, Tag}
+package ex1
+
 import slick.jdbc.MySQLProfile.api._
+import slick.lifted.{ProvenShape, Tag}
 
 class Suppliers(tag: Tag) extends Table[Supplier](tag, "SUPPLIERS") {
   // This is the primary key column:

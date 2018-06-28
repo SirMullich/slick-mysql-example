@@ -1,10 +1,11 @@
+package ex1
+
+import slick.jdbc.MySQLProfile.api._
 import slick.lifted.TableQuery
 
+import scala.concurrent.Await
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
-import slick.jdbc.MySQLProfile.api._
-
-import scala.concurrent.Await
 
 
 object Boot extends App {
